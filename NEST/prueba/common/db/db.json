@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ana",
+      "email": "ana@example.com",
+      "edad": 28
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Camiseta",
+      "price": 20
+    },
+    {
+      "id": 2,
+      "title": "Pantalon",
+      "price": 35
+    }
+  ]
+}
