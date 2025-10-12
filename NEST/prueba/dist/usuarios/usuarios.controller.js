@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import { Controller, Get, Post, Body } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, ParseUUIDPipe } from '@nestjs/common';
 import { UsuariosService } from './usuarios.service.js';
 import { CreateUserDto } from './dto/create-user.dto.js';
 let UsuariosController = class UsuariosController {
@@ -24,8 +24,15 @@ let UsuariosController = class UsuariosController {
     getAll() {
         return this.usuariosService.findAll();
     }
+    findOne(id) {
+        console.log(id);
+        const id1 = +id;
+        console.log(id1);
+        return this.usuariosService.findOne(id);
+    }
     add(usuarioDTO) {
         console.log('Usuario recibido', usuarioDTO);
+        return this.usuariosService.new(usuarioDTO);
     }
     delete() {
         return 'borrado de usuarios';
@@ -43,6 +50,13 @@ __decorate([
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
 ], UsuariosController.prototype, "getAll", null);
+__decorate([
+    Get(':id'),
+    __param(0, Param('id', new ParseUUIDPipe({ version: '4' }))),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", void 0)
+], UsuariosController.prototype, "findOne", null);
 __decorate([
     Post('new'),
     __param(0, Body()),

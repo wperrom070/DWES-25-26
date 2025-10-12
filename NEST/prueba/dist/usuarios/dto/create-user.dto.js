@@ -40,16 +40,19 @@ __decorate([
     __metadata("design:type", String)
 ], CreateUserDto.prototype, "name", void 0);
 __decorate([
+    IsOptional(),
     IsEmail(),
     __metadata("design:type", String)
 ], CreateUserDto.prototype, "email", void 0);
 __decorate([
+    IsOptional(),
     IsArray(),
     ArrayMinSize(2, { message: 'Debe tener al menos 2 teléfonos' }),
     ArrayMaxSize(3, { message: 'Debe tener max 3 teléfonos' }),
     __metadata("design:type", Array)
 ], CreateUserDto.prototype, "telefonos", void 0);
 __decorate([
+    IsOptional(),
     IsString(),
     Matches(/^\d{8}[A-Z]$/, { message: 'El nif no es correcto, 8 números y una letra mayúscula' }),
     __metadata("design:type", String)
@@ -59,10 +62,12 @@ __decorate([
     __metadata("design:type", String)
 ], CreateUserDto.prototype, "rol", void 0);
 __decorate([
+    IsOptional(),
     IsBoolean(),
     __metadata("design:type", Boolean)
 ], CreateUserDto.prototype, "esdelMadrid", void 0);
 __decorate([
+    IsOptional(),
     IsArray(),
     ArrayMinSize(3, { message: 'Debe tener al menos 3 direcciones' }),
     ValidateNested({ each: true }),

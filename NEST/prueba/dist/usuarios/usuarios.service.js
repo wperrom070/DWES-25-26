@@ -16,18 +16,27 @@ let UsuariosService = class UsuariosService {
         const adaptador = new JSONFile('common/db/db.json');
         this.db = new Low(adaptador, { users: [] });
     }
+    async findOne(id) {
+        console.log(id);
+        const data = await this.db.read();
+        const usuario = this.db.data.users.find(usuario => usuario.id === parseInt(id));
+        console.log(usuario);
+        return usuario;
+    }
     async findAll() {
         await this.db.read();
         return this.db.data.users;
     }
     async new(usuario) {
+        console.log(usuario);
         await this.db.read();
         this.db.data.users.push(usuario);
-        this.db.write();
-        console.log(this.db.data.users);
+        await this.db.write();
         return {
+            status: true,
+            code: 200,
             msg: 'Usuario creado',
-            data: this.db.data.users
+            data: usuario
         };
     }
 };

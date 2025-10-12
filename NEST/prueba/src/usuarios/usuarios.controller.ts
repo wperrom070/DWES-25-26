@@ -1,6 +1,7 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete, BadRequestException } from '@nestjs/common';
+import { Controller, Get, Post, Body, Patch, Param, Delete, BadRequestException, ParseUUIDPipe } from '@nestjs/common';
 import { UsuariosService } from './usuarios.service.js';
 import { CreateUserDto } from './dto/create-user.dto.js';
+import { identity } from 'rxjs';
 //import { IUser } from './interfaces/IUsuario';
 //mport { CreateUsuarioDto } from './dto/create-usuario.dto';
 //import { UpdateUsuarioDto } from './dto/update-usuario.dto';
@@ -11,22 +12,34 @@ export class UsuariosController {
   // Solo se inyectan clases con el decorador @injectable
   constructor(private readonly usuariosService: UsuariosService) {}
 
+  
   @Get() /* Endpoint raiz -- home */
   getHome() {
     return 'home del seccion usuarios'
   }
-
+  // Devuelve todos los productos 
+  // --> select * form ...
   @Get('all') /* Endpoint raiz */
   getAll() {
     return this.usuariosService.findAll();
   }
 
+  // Se le pasa el $id por Get y se devuelve ese producto (objecto)
+  // ---> select * from productos where $id = productos.id
+  @Get(':id')
+  findOne(@Param('id', new ParseUUIDPipe({version: '4'})) id: string){
+    console.log(id);
+    const id1 = +id;
+    console.log(id1);
+    return this.usuariosService.findOne(id);
+
+  }
+
   // Métodos ENDPOINT --> DECORADOR get, post, put, delete...
    @Post('new') /* Endpoint raiz */
     add(@Body() usuarioDTO: CreateUserDto) { 
-     
       console.log('Usuario recibido', usuarioDTO);
-
+      return this.usuariosService.new(usuarioDTO);
 
       //return this.usuariosService.new(usuario);
   

@@ -4,7 +4,8 @@ export declare class UsuariosController {
     private readonly usuariosService;
     constructor(usuariosService: UsuariosService);
     getHome(): string;
-    getAll(): Promise<any>;
-    add(usuarioDTO: CreateUserDto): void;
+    getAll(): Promise<import("./interfaces/IUsuario.js").IUser[]>;
+    findOne(id: string): Promise<import("./interfaces/IUsuario.js").IUser>;
+    add(usuarioDTO: CreateUserDto): Promise<import("./interfaces/IUsuario.js").IRespUser>;
     delete(): string;
 }

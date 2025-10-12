@@ -23,14 +23,17 @@ export class CreateUserDto {
     @MaxLength(8, {message: 'name: Máximo 8 caracteres'})
     name: string;
 
+    @IsOptional() //@IsNotEmpty
     @IsEmail() // Función externa que valida que es un string
     email: string;
 
+    @IsOptional() //@IsNotEmpty
     @IsArray() // Función externa que valida que es un array 
     @ArrayMinSize(2, {message: 'Debe tener al menos 2 teléfonos'})
     @ArrayMaxSize(3, {message: 'Debe tener max 3 teléfonos'})
     telefonos: string[];
 
+    @IsOptional() //@IsNotEmpty
     @IsString()
     @Matches(/^\d{8}[A-Z]$/, {message: 'El nif no es correcto, 8 números y una letra mayúscula'})
     nif: string;
@@ -38,9 +41,11 @@ export class CreateUserDto {
     @IsIn(roles, {message: `El rol debe ser uno de los siguientes: ${roles}`})
     rol: string;
 
+    @IsOptional() //@IsNotEmpty
     @IsBoolean()
     esdelMadrid: boolean; // true o false
 
+    @IsOptional() //@IsNotEmpty
     @IsArray()
     @ArrayMinSize(3, {message: 'Debe tener al menos 3 direcciones'})
     @ValidateNested({each: true}) // Valida cada uno de los elementos del array
