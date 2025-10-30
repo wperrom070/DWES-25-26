@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": "c5a4a3a2-61a8-4e89-8f9e-34c4f84a0f83",
+      "edad": 58,
+      "name": "Morgado",
+      "email": "morgado@gmail.com",
+      "nif": "26544070S",
+      "rol": "administrador"
+    },
+    {
+      "id": "c5a4a3a2-61a8-4e89-8f9e-34c4f84a0f83",
+      "edad": 48,
+      "name": "Lucia",
+      "email": "lucia@gmail.com",
+      "nif": "26544070S",
+      "rol": "administrador"
+    },
+    {
+      "id": "c5a4a3a2-61a8-4e89-8f9e-34c4f84a0f82",
+      "edad": 48,
+      "name": "Lucia",
+      "email": "lucia@gmail.com",
+      "nif": "26544070S",
+      "rol": "administrador"
+    },
+    {
+      "id": "c5a4a3a2-61a8-4e89-8f9e-34c4f84a0f82",
+      "edad": 48,
+      "name": "Lucia",
+      "email": "lucia@gmail.com",
+      "nif": "26544070S",
+      "rol": "administrador"
+    },
+    {
+      "id": "c5a4a3a2-61a8-4e89-8f9e-34c4f84a0f82",
+      "edad": 48,
+      "name": "Lucia",
+      "email": "lucia@gmail.com",
+      "nif": "26544070S",
+      "rol": "administrador"
+    },
+    {
+      "id": "c5a4a3a2-61a8-4e89-8f9e-34c4f84a0f82",
+      "edad": 48,
+      "name": "Lucia",
+      "email": "lucia@gmail.com",
+      "nif": "26544070S",
+      "rol": "administrador"
+    },
+    {
+      "id": "c5a4a3a2-61a8-4e89-8f9e-34c4f84a0f82",
+      "edad": 48,
+      "name": "Morgado",
+      "email": "lucia@gmail.com",
+      "nif": "26544070S",
+      "rol": "administrador"
+    },
+    {
+      "id": "c5a4a3a2-61a8-4e89-8f9e-34c4f84a0f82",
+      "edad": 48,
+      "name": "Morgado",
+      "email": "lucia@gmail.com",
+      "nif": "26544070S",
+      "rol": "invitado"
+    },
+    {
+      "id": "c5a4a3a2-61a8-4e89-8f9e-34c4f84a0f82",
+      "edad": 28,
+      "name": "Morgado",
+      "email": "lucia@gmail.com",
+      "nif": "26544070S",
+      "rol": "invitado"
+    },
+    {
+      "id": "c5a4a3a2-61a8-4e89-8f9e-34c4f84a0f82",
+      "edad": 28,
+      "name": "Morgado",
+      "email": "lucia@gmail.com",
+      "nif": "26544070S",
+      "rol": "invitado"
+    },
+    {
+      "id": "c5a4a3a2-61a8-4e89-8f9e-34c4f84a0f82",
+      "edad": 28,
+      "name": "Morgado",
+      "email": "lucia@gmail.com",
+      "nif": "26544070S",
+      "rol": "invitado"
+    }
+  ]
+}
