@@ -1,6 +1,6 @@
 import { Type } from "class-transformer";
 import { IsEmail, IsInt, IsOptional, IsString, Matches, ValidateNested } from "class-validator";
-import { AddressDto } from "src/common/dto/address.dto.js";
+import { AddressDto } from "src/common/dto/address.dto";
 
 export class CreateClienteDto {
 
