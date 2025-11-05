@@ -1,0 +1,302 @@
+[
+  {
+    "nif": "12345678A",
+    "nombre": "Carlos",
+    "apellidos": "Pérez García",
+    "edad": 29,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Madrid",
+      "provincia": "Madrid",
+      "calle": "Gran Vía",
+      "numero": "45",
+      "cpostal": "28013"
+    }
+  },
+  {
+    "nif": "23456789B",
+    "nombre": "Lucía",
+    "apellidos": "López Díaz",
+    "edad": 34,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Madrid",
+      "provincia": "Madrid",
+      "calle": "Calle Alcalá",
+      "numero": "120",
+      "cpostal": "28009"
+    }
+  },
+  {
+    "nif": "34567890C",
+    "nombre": "Andrés",
+    "apellidos": "Sánchez Ruiz",
+    "edad": 42,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Madrid",
+      "provincia": "Madrid",
+      "calle": "Calle Serrano",
+      "numero": "88",
+      "cpostal": "28006"
+    }
+  },
+  {
+    "nif": "45678901D",
+    "nombre": "María",
+    "apellidos": "Torres Martín",
+    "edad": 26,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Madrid",
+      "provincia": "Madrid",
+      "calle": "Calle Mayor",
+      "numero": "22",
+      "cpostal": "28013"
+    }
+  },
+  {
+    "nif": "56789012E",
+    "nombre": "Javier",
+    "apellidos": "Domínguez Ortega",
+    "edad": 38,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Madrid",
+      "provincia": "Madrid",
+      "calle": "Calle Princesa",
+      "numero": "14",
+      "cpostal": "28008"
+    }
+  },
+  {
+    "nif": "67890123F",
+    "nombre": "Laura",
+    "apellidos": "Gómez Molina",
+    "edad": 30,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Almería",
+      "provincia": "Almería",
+      "calle": "Avenida Mediterráneo",
+      "numero": "12",
+      "cpostal": "04006"
+    }
+  },
+  {
+    "nif": "78901234G",
+    "nombre": "Pablo",
+    "apellidos": "Moreno León",
+    "edad": 41,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Almería",
+      "provincia": "Almería",
+      "calle": "Calle Real",
+      "numero": "8",
+      "cpostal": "04001"
+    }
+  },
+  {
+    "nif": "89012345H",
+    "nombre": "Isabel",
+    "apellidos": "Ruiz Fernández",
+    "edad": 33,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Almería",
+      "provincia": "Almería",
+      "calle": "Calle Granada",
+      "numero": "56",
+      "cpostal": "04003"
+    }
+  },
+  {
+    "nif": "90123456I",
+    "nombre": "Raúl",
+    "apellidos": "Vega Navarro",
+    "edad": 25,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Almería",
+      "provincia": "Almería",
+      "calle": "Calle Javier Sanz",
+      "numero": "10",
+      "cpostal": "04007"
+    }
+  },
+  {
+    "nif": "01234567J",
+    "nombre": "Carmen",
+    "apellidos": "Ramos Castillo",
+    "edad": 36,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Almería",
+      "provincia": "Almería",
+      "calle": "Paseo de Almería",
+      "numero": "20",
+      "cpostal": "04001"
+    }
+  },
+  {
+    "nif": "11234567K",
+    "nombre": "Adrián",
+    "apellidos": "Gil López",
+    "edad": 32,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Almería",
+      "provincia": "Almería",
+      "calle": "Avenida Cabo de Gata",
+      "numero": "40",
+      "cpostal": "04009"
+    }
+  },
+  {
+    "nif": "21234567L",
+    "nombre": "Sofía",
+    "apellidos": "Navarro Ortiz",
+    "edad": 28,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Almería",
+      "provincia": "Almería",
+      "calle": "Calle Málaga",
+      "numero": "9",
+      "cpostal": "04004"
+    }
+  },
+  {
+    "nif": "31234567M",
+    "nombre": "Tomás",
+    "apellidos": "Romero Cruz",
+    "edad": 37,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Almería",
+      "provincia": "Almería",
+      "calle": "Calle San Juan",
+      "numero": "11",
+      "cpostal": "04008"
+    }
+  },
+  {
+    "nif": "41234567N",
+    "nombre": "Ana",
+    "apellidos": "Martín Jiménez",
+    "edad": 27,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Murcia",
+      "provincia": "Murcia",
+      "calle": "Gran Vía Escultor Salzillo",
+      "numero": "6",
+      "cpostal": "30004"
+    }
+  },
+  {
+    "nif": "51234567O",
+    "nombre": "José",
+    "apellidos": "Hernández Pérez",
+    "edad": 43,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Murcia",
+      "provincia": "Murcia",
+      "calle": "Calle Platería",
+      "numero": "23",
+      "cpostal": "30001"
+    }
+  },
+  {
+    "nif": "61234567P",
+    "nombre": "Patricia",
+    "apellidos": "Santos Blanco",
+    "edad": 31,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Murcia",
+      "provincia": "Murcia",
+      "calle": "Calle Trapería",
+      "numero": "10",
+      "cpostal": "30001"
+    }
+  },
+  {
+    "nif": "71234567Q",
+    "nombre": "Miguel",
+    "apellidos": "Castro Rubio",
+    "edad": 39,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Murcia",
+      "provincia": "Murcia",
+      "calle": "Avenida de la Constitución",
+      "numero": "12",
+      "cpostal": "30008"
+    }
+  },
+  {
+    "nif": "81234567R",
+    "nombre": "Beatriz",
+    "apellidos": "Cano Lara",
+    "edad": 35,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Murcia",
+      "provincia": "Murcia",
+      "calle": "Calle Princesa",
+      "numero": "5",
+      "cpostal": "30002"
+    }
+  },
+  {
+    "nif": "91234567S",
+    "nombre": "Antonio",
+    "apellidos": "León Serrano",
+    "edad": 40,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Granada",
+      "provincia": "Granada",
+      "calle": "Calle Recogidas",
+      "numero": "18",
+      "cpostal": "18005"
+    }
+  },
+  {
+    "nif": "01928374T",
+    "nombre": "Elena",
+    "apellidos": "Vargas Lozano",
+    "edad": 33,
+    "comision": 0.3,
+    "address": {
+      "pais": "España",
+      "ciudad": "Granada",
+      "provincia": "Granada",
+      "calle": "Calle Reyes Católicos",
+      "numero": "7",
+      "cpostal": "18001"
+    }
+  }
+]

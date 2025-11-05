@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller.js';
 import { AppService } from './app.service.js';
-import { ClientesModule } from './clientes/clientes.module.js';
-import { UsuariosModule } from './usuarios/usuarios.module.js';
+import { ClientesModule } from './modulos/clientes/clientes.module';
+import { UsuariosModule } from './modulos/usuarios/usuarios.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { Type } from 'class-transformer';
 import { TypeOrmModule } from '@nestjs/typeorm';
