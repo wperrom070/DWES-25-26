@@ -9,6 +9,6 @@ services:
       POSTGRES_PASSWORD: admin 
       POSTGRES_DB: bdusuarios_wendy
     ports:
-      - "5433:5432"
+      - "5438:5432"
     volumes:
       - "./data_wendy:/var/lib/postgresql/data"
